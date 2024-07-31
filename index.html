@@ -21,13 +21,14 @@
         width: 10rem;
       }
       .horizontal_card {
-        height: 25.5rem;
+        height: 55.5rem;
         width: 70%;
         margin: auto;
         overflow: auto;
       }
       .custom_card img {
-        width: 100%;
+        height: 20rem;
+        margin: auto;
         object-fit: contain;
       }
       .img_overlay {
@@ -163,12 +164,24 @@
     <h1>Highly rated</h1>
     <small>Sponsored <span>&#128712 </span> Based on star rating and number of customer ratings</small>
     <section class="horizontal_card">
-      <div class="card_container">
-        <div class="card-group d-flex">
+      <div
+      id="carouselExampleControls"
+      class="carousel slide horizontal_card"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <div class="card custom_card">
-            <img src="https://m.media-amazon.com/images/I/61wEZWB4MEL._AC_UL320_.jpg" class="card-img-top" alt="...">
+            <img
+              src="https://m.media-amazon.com/images/I/61wEZWB4MEL._AC_UL320_.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">URBN 20000mAh Power Bank with Built-in Type-C Cable | 22.5W Super Fast Charging | Smart LED Display | Dual</h5>
+              <h5 class="card-title">
+                URBN 20000mAh Power Bank with Built-in Type-C Cable | 22.5W
+                Super Fast Charging | Smart LED Display | Dual
+              </h5>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
@@ -176,18 +189,29 @@
               <i class="bi bi-star-half"></i>
               <a href="#" class="btn btn-danger btn-sm">Limited time deal</a>
               <p class="card-text">
-              <span class="fw-bold fs-3">&#8377; 2,299</span>
-              <span> M.R.P: </span>
-              <span style="text-decoration: line-through">&#8377; 4,999</span>
-              <span class="text-success"> (54% off)</span>
-            </p>
+                <span class="fw-bold fs-3">&#8377; 2,299</span>
+                <span> M.R.P: </span>
+                <span style="text-decoration: line-through">&#8377; 4,999</span>
+                <span class="text-success"> (54% off)</span>
+              </p>
             </div>
           </div>
+        </div>
+        <div class="carousel-item">
           <div class="card custom_card">
-            <span class="img_overlay">Amazon's <span style="color: orangered;">Choice</span></span>
-            <img src="https://m.media-amazon.com/images/I/61mOfy8b-JL._AC_UL320_.jpg" class="card-img-top" alt="...">
+            <span class="img_overlay"
+              >Amazon's <span style="color: orangered">Choice</span></span
+            >
+            <img
+              src="https://m.media-amazon.com/images/I/61mOfy8b-JL._AC_UL320_.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Kratos Legend Pro Power Bank with USB C/B input, Dual USB A Output, Slim Power Bank 10000mah compatible for</h5>
+              <h5 class="card-title">
+                Kratos Legend Pro Power Bank with USB C/B input, Dual USB A
+                Output, Slim Power Bank 10000mah compatible for
+              </h5>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
@@ -195,18 +219,30 @@
               <i class="bi bi-star-half"></i>
               <a href="#" class="btn btn-danger btn-sm">Limited time deal</a>
               <p class="card-text">
-              <span class="fw-bold fs-3">&#8377; 749</span>
-              <span> M.R.P: </span>
-              <span style="text-decoration: line-through">&#8377; 2,999</span>
-              <span class="text-success"> (75% off)</span>
-            </p>
-            <p><span class="bg-success text-light p-1">Save &#8377; 100</span> with coupon</p>
+                <span class="fw-bold fs-3">&#8377; 749</span>
+                <span> M.R.P: </span>
+                <span style="text-decoration: line-through">&#8377; 2,999</span>
+                <span class="text-success"> (75% off)</span>
+              </p>
+              <p>
+                <span class="bg-success text-light p-1">Save &#8377; 100</span>
+                with coupon
+              </p>
             </div>
           </div>
+        </div>
+        <div class="carousel-item">
           <div class="card custom_card">
-            <img src="https://m.media-amazon.com/images/I/51KpjGzmMAL._AC_UL320_.jpg" class="card-img-top" alt="...">
+            <img
+              src="https://m.media-amazon.com/images/I/51KpjGzmMAL._AC_UL320_.jpg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">Amazon Basics 10000 mAh 22.5W Ultra Fast Charging Power Bank | Type C Power Delivery (Input & Output)</h5>
+              <h5 class="card-title">
+                Amazon Basics 10000 mAh 22.5W Ultra Fast Charging Power Bank |
+                Type C Power Delivery (Input & Output)
+              </h5>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
               <i class="bi bi-star-fill"></i>
@@ -214,16 +250,36 @@
               <i class="bi bi-star-half"></i>
               <a href="#" class="btn btn-danger btn-sm">Limited time deal</a>
               <p class="card-text">
-              <span class="fw-bold fs-3">&#8377; 1,099</span>
-              <span> M.R.P: </span>
-              <span style="text-decoration: line-through">&#8377; 2,099</span>
-              <span class="text-success"> (48% off)</span>
-            </p>
+                <span class="fw-bold fs-3">&#8377; 1,099</span>
+                <span> M.R.P: </span>
+                <span style="text-decoration: line-through">&#8377; 2,099</span>
+                <span class="text-success"> (48% off)</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     </section>
-      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
